@@ -2,8 +2,14 @@
 name = "getproxies"
 version = "1.0.0"
 description = "Scraper of free online proxies"
-authors = ["granitosaurus <tinarg@protonmail.com>"]
 license = "LGPL-3.0-or-later"
+readme = 'README.md'
+homepage = "https://github.com/granitosaurus/getproxies"
+repository = "https://github.com/granitosaurus/getproxies"
+keywords=['proxies', 'web-crawling', 'cli']
+authors = [
+    "granitosaurus <bernardas.alisauskas@pm.me>"
+]
 
 [tool.poetry.dependencies]
 python = "^3.6"

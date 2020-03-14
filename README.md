@@ -10,6 +10,32 @@ print(proxies[:10])
 # [http://196.18.215.153:3128, https://36.67.89.179:65205, http://35.247.192.53:3128, socks5://113.54.158.40:1080, https://180.122.51.154:9999, socks4://117.44.28.152:9201, https://178.20.137.178:43980, https://109.86.121.118:46333, https://148.77.34.194:39175, socks4://114.99.16.195:1080]
 ```
 
+or using cli:
+
+```shell script
+$ poetry run getproxies --help                                                                                        
+Usage: getproxies [OPTIONS] [PROTOCOL]
+
+Options:
+  -c, --country TEXT   only proxies from specified country (ISO double char
+                       code, e.g. US)
+
+  -l, --limit INTEGER  limit proxy retrieval - increases performance
+  -f, --format TEXT    proxy output format, available variables:
+                       host,port,protocol,code,country,anonymous,source
+                       [default: {protocol}://{host}:{port}]
+
+  --help               Show this message and exit.
+```
+
+## Install
+
+```shell script
+$ pip install getproxies
+or for latest code
+$ pip install -U git+https://github.com/granitosaurus/getproxies
+```
+
 ## Sources
 
 Currently these sources are supported 
