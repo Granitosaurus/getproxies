@@ -1,4 +1,4 @@
-# getproxies
+# getproxies ![version-badge](https://img.shields.io/pypi/v/getproxies?style=flat-square) ![pyversion-badge](https://img.shields.io/pypi/pyversions/getproxies?style=flat-square) ![license-badge](https://img.shields.io/pypi/l/getproxies?style=flat-square)   
 
 Get some free proxies scraped from free proxy sources.
 
