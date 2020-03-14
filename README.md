@@ -13,19 +13,25 @@ print(proxies[:10])
 or using cli:
 
 ```shell script
-$ poetry run getproxies --help                                                                                        
-Usage: getproxies [OPTIONS] [PROTOCOL]
+$ poetry run getproxies --help
+Usage: getproxies [OPTIONS]
+
+  scrape free proxies from all sources and put it to STDOUT
 
 Options:
-  -c, --country TEXT   only proxies from specified country (ISO double char
-                       code, e.g. US)
+  -p, --protocol [https|http|socks4|socks5]
+                                  restrict to specific protocol
+  -c, --country TEXT              only proxies from specified country (ISO
+                                  double char code, e.g. US)
 
-  -l, --limit INTEGER  limit proxy retrieval - increases performance
-  -f, --format TEXT    proxy output format, available variables:
-                       host,port,protocol,code,country,anonymous,source
-                       [default: {protocol}://{host}:{port}]
+  -l, --limit INTEGER             limit proxy retrieval - increases
+                                  performance
 
-  --help               Show this message and exit.
+  -f, --format TEXT               proxy output format, available variables: ho
+                                  st,port,protocol,code,country,anonymous,sour
+                                  ce  [default: {protocol}://{host}:{port}]
+
+  --help                          Show this message and exit.
 ```
 
 ## Install
